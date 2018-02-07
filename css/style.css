@@ -1,0 +1,526 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+body h2, body p, body span, body a{
+	font-family:Arial;
+	text-align:left;
+	display:block;
+	margin: 0;
+}
+
+/*inicio do topo*/
+
+#topo{
+	width:100%;
+	display:block;
+	background:#007ec8;
+	height:276px;
+}
+
+#topo .conteiner, #beneficios .conteiner, #baixeApp .conteiner, #passos .conteiner{
+	width:860px;
+	display:block;
+	position:relative;
+	margin:auto;
+	height:276px;
+}
+
+#topo .conteiner{
+	width:860px;
+}
+
+#topo .conteiner .left{
+	width:auto;
+	display:inline-block;
+	float:left;
+}
+
+#topo .conteiner .left h2{
+	font-size:30px;
+	text-align:left;
+	color:#ffeb4a;
+	margin-top: 24px;
+}
+
+#topo .conteiner .left .titulo{
+	text-align:left;
+	color:#ffeb4a;
+	font-size:45px;
+}
+
+#topo .conteiner .left .descricao{
+	font-size:20px;
+	color:#fff;
+	margin-top: 24px;
+}
+
+#topo .conteiner .left .vejaComo{
+	width:134px;
+	height:30px;
+	border-radius:5px;
+	border:1px solid #309bfb;
+	background: transparent;
+	cursor:pointer;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	line-height:30px;
+	margin-top: 24px;
+	text-decoration:none;
+}
+
+#topo .conteiner .left .vejaComo:hover{
+    background:#309bfb;
+}
+
+#topo .conteiner .right{
+	width: 390px;
+    height: 276px;
+    display: inline-block;
+    float: left;
+    background: url(../images/logo.png) no-repeat 0 0;
+}
+
+/*fim do topo */
+
+/*------------------------------------------------------------------------------*/
+
+/*inicio seçao de vantagens */
+
+#beneficios{
+	width:100%;
+	display:block;
+	background:#fff;
+	height:330px;
+}
+
+#beneficios h2{
+	width:auto;
+	text-align:center;
+	color:#0083ca;
+	display:block;
+	font-size:25px;
+	margin: 35px 0 40px 0;
+}
+
+#beneficios .icones{
+	display: block;
+    position: relative;
+    width: 875px;
+    margin: auto;
+    height: 175px;
+}
+
+#beneficios .icones img{
+	display:block;
+	margin:auto;
+	margin-bottom:10px;
+}
+
+#beneficios .icones .item{
+	display:inline-block;
+	float:left;
+	width:250px;
+	margin-right: 60px;
+}
+
+#beneficios .icones .item:last-child{
+	margin-right: 0;
+}
+
+#beneficios .icones .item span{
+	color:#989c94;
+	font-size:17px;
+	text-align:center;
+}
+
+/*fim da seçao de vantagens */
+
+/*------------------------------------------------------------------------------*/
+
+/*inicio seçao app */
+
+#baixeApp{
+	width:100%;
+	display:block;
+	background:#007ec8;
+	height:200px;
+	position:relative;
+}
+
+#baixeApp .conteiner{
+	height:200px;
+}
+
+#baixeApp .conteiner .left{
+	width:auto;
+	display:inline-block;
+	float:left;
+	width:320px;
+	height: 200px;
+}
+
+#baixeApp .conteiner .left .imagem{
+	background: url(../images/baixeApp.png) no-repeat 0 0;
+	width:230px;
+	height:229px;
+	position:absolute;
+	left:75px;
+	z-index:999;
+	bottom: 0;
+}
+
+#baixeApp .conteiner .right{
+	width:auto;
+	display:inline-block;
+	float:left;
+	width:auto;
+	height: 200px;
+	margin-left: 15px;
+}
+
+#baixeApp .conteiner .right .titulo{
+	font-size:25px;
+	color:#ffeb4a;
+	margin-top:25px;
+
+}
+
+#baixeApp .conteiner .right .iconesApp{
+	display:block;
+	margin-top:25px;
+}
+
+#baixeApp .conteiner .right .iconesApp a{
+	display:inline-block;
+	float:left;
+	width: 150px;
+    height: 60px;
+	background: url(../images/btnApp.png) no-repeat 0 0;
+	cursor:pointer;
+}
+
+#baixeApp .conteiner .right .iconesApp .appStore{
+	background-position:-14px;
+}
+
+#baixeApp .conteiner .right .iconesApp .playStore{
+	background-position:-173px 0;
+}
+
+/*fim da seçao do app */
+
+/*------------------------------------------------------------------------------*/
+
+/*inicio seçao de passo a passo */
+
+#passos{
+	width:100%;
+	display:block;
+	position:relative;
+}
+
+#passos h2{
+	width:auto;
+	text-align:center;
+	color:#0083ca;
+	display:block;
+	font-size:25px;
+	margin: 35px 0 40px 0;
+}
+
+#passos .conteiner .descricao{
+    font-size:17px;
+    color:#989c94;
+}
+
+#passos .conteiner .right{
+	display:inline-block;
+	float: right;
+	position:relative;
+}
+
+#passos .conteiner .left{
+	display: inline-block;
+    float: left;
+    position: relative;
+    margin-top: 80px;
+}
+
+#passos .conteiner .escolha, #passos .conteiner .insira, #passos .conteiner .finalize{
+	height:265px;
+}
+
+#passos .conteiner .escolha{
+	background: url(../images/lista-celular1.png) no-repeat 0 0;
+    width: 735px;
+    margin-left: 20px;
+}
+
+
+#passos .conteiner .escolha .right{
+	margin-top:60px;
+}
+
+#passos .conteiner .escolha .right .titulo{
+	color:#0083ca;
+	font-size:35px;
+	margin-bottom: 10px;
+}
+
+#passos .conteiner .insira{
+	width: 653px;
+    margin: auto;
+    background: url(../images/lista-celular2.png) no-repeat 0 0;
+    background-position: right;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+
+#passos .conteiner .insira .left .titulo{
+	color:#0083ca;
+	font-size:35px;
+	margin-bottom: 10px;
+}
+
+#passos .conteiner .finalize{
+	background: url(../images/lista-celular3.png) no-repeat 0 0;
+    width: 735px;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+#passos .conteiner .finalize .right{
+	margin-top: 90px;
+    margin-right: 45px;
+}
+
+
+#passos .conteiner .finalize .right .titulo{
+	color:#0083ca;
+	font-size:35px;
+	margin-bottom: 10px;
+}
+
+/*fim da seçao passo a passo */
+
+/*------------------------------------------------------------------------------*/
+
+/*inicio Responsivo */
+
+@media only screen and (max-width: 900px) {
+
+	div{
+		width:100%;
+	}
+
+	#topo .conteiner, #beneficios .conteiner, #baixeApp .conteiner, #passos .conteiner{
+	    width: 100%;
+	}
+	
+	#beneficios .icones .item{
+		margin-right: 0;
+	}
+
+	#topo .conteiner .left h2{
+		text-align: center;
+	}
+
+	#topo .conteiner .left {
+	    text-align: center;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	#topo .conteiner .left .titulo {
+	    text-align: center;
+	}
+
+	#topo .conteiner .left .descricao{
+		text-align: center;
+		margin-bottom:20px;
+	}
+
+	#topo .conteiner .left .vejaComo {
+	    width: 200px;
+	    height: 40px;
+	    border-radius: 5px;
+	    border: 1px solid #309bfb;
+	    background: transparent;
+	    cursor: pointer;
+	    color: #fff;
+	    text-align: center;
+	    font-size: 16px;
+	    line-height: 40px;
+	    margin-top: 27px;
+	    text-decoration: none;
+	    margin: auto;
+	}
+
+	#topo .conteiner .right {
+	    width: 100%;
+	    height: 276px;
+	    display: block;
+	    float: left;
+	    background: url(../images/logo.png) no-repeat 0 0;
+	    margin: auto;
+	    background-position: center;
+	}
+
+	#topo {
+	    width: 100%;
+	    display: block;
+	    background: #007ec8;
+	    height: 560px;
+	}
+
+	#beneficios .icones{
+		width:100%;
+	}
+
+	#passos .conteiner .escolha, #passos .conteiner .insira, #passos .conteiner .finalize{
+		width:100%;
+	}
+
+	#passos .conteiner .escolha, #passos .conteiner .insira, #passos .conteiner .finalize{
+		background-position: center 0;
+	    margin-left: 0;
+	    height: 475px;
+	}
+
+	#passos .conteiner .insira .left .titulo{
+		text-align: center;
+		display: block;
+	}
+
+	#passos .conteiner .escolha .right {
+	    margin-top: 85px;
+	    width: 100%;
+	    text-align: center;
+	    margin: 80px auto;
+	}
+
+	#passos .conteiner .titulo, #passos .conteiner .descricao{
+		text-align: center;
+	}
+
+	#passos .conteiner .insira .left{
+		margin-top: 250px;
+		height: 20px;
+	}
+
+	#passos .conteiner .finalize .right {
+	    margin-top: 90px;
+	    margin-right: 0;
+	    float: none;
+	}
+
+}
+
+@media only screen and (max-width: 651px) {
+
+	#topo .conteiner .left .vejaComo:hover{
+	    background:transparent;
+	}
+
+	#beneficios .icones .item {
+	    margin-right: 0;
+	    display: block;
+	    float: none;
+	    margin: auto;
+	    margin-bottom: 50px;
+	}
+
+	#beneficios {
+	    width: 100%;
+	    display: block;
+	    background: #fff;
+	    height: 750px;
+	}
+
+	#beneficios .icones .item:last-child {
+	    margin-right: inherit;
+	}
+
+	#baixeApp{
+		height:400px;
+	}
+
+	#passos .conteiner .left {
+	    display: block;
+	    position: relative;
+	    margin-top: 20px;
+	    height: 190px;
+	}
+
+	#baixeApp .conteiner .left .imagem {
+	    left: 50%;
+	    margin-left: -115px;
+	}
+
+	#baixeApp .conteiner .right{
+		width:100%;
+		display:block;
+		margin-left: 0;
+	}
+
+	#baixeApp .conteiner .right .titulo{
+		text-align:center;
+		margin-bottom:25px;
+	}
+
+
+	#baixeApp .conteiner .right .iconesApp {
+	    display: block;
+	    margin: auto;
+	    width: 300px;
+	    height: 60px;
+	}
+
+	#passos .conteiner .escolha, #passos .conteiner .insira, #passos .conteiner .finalize{
+		background-position: center 0;
+	    margin-left: 0;
+	    height: 475px;
+	}
+
+	#passos .conteiner .insira .left .titulo{
+		text-align: center;
+		display: block;
+	}
+
+	#passos .conteiner .escolha .right {
+	    margin-top: 85px;
+	    width: 100%;
+	    text-align: center;
+	    margin: 80px auto;
+	}
+
+	#passos .conteiner .titulo, #passos .conteiner .descricao{
+		text-align: center;
+	}
+
+	#passos .conteiner .insira .left{
+		margin-top: 250px;
+		height: 20px;
+	}
+
+	#passos .conteiner .finalize .right {
+	    margin-top: 90px;
+	    margin-right: 0;
+	    float: none;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	#beneficios{
+		height:865px;
+	}
+}
+
+
+
+
+
