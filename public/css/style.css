@@ -1,0 +1,353 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+h2, p, span, a, small{
+    font-family: Open Sans,sans-serif;
+	display:block;
+	margin: 0;
+	color:#313135;
+}
+
+.conteiner{
+	width:90%;
+	display:block;
+	margin:auto;
+	position:relative;
+}
+
+
+.topo{
+    background: #5a2d82;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+.topo .top-title{
+    display: block;
+    margin: auto;
+    background:url('https://static.netshoes.com.br/0.0.272.2/netshoesbr/images/logo.png') no-repeat center center;
+    text-indent: -9999px;
+    height:70px;
+}
+
+.topo .cart{
+	background: url('../img/iconCart.png') no-repeat center center;
+    background-color: #ff8b51;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 60px;
+    height: 57px;
+    cursor: pointer;
+}
+
+.topo .cart .cart-fixed{
+    display: block;
+    background-color: #202025;
+    width: 515px;
+    position: fixed;
+    z-index: 5;
+    right: -515px;
+    top: 0;
+    height: 100%;
+    cursor: initial;
+}
+
+.topo .cart .cart-fixed .valCart{
+	margin: auto;
+    width: 425px;
+    display: block;
+}
+
+.topo .cart .cart-fixed .valCart p{
+	font-size: 14px;
+    color: #949495;
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+.topo .cart .cart-fixed .valCart .subtotal{
+	font-size: 24px;
+    color: #dfbd00;
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+
+.topo .cart .cart-fixed .valCart button{
+    width: 100%;
+    border: none;
+    background: #000;
+    color: #fff;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.topo .cart .cart-fixed .head-car{
+    display: block;
+    width: 250px;
+    margin: auto;
+    margin-top:20px;
+    position:relative;
+}
+
+.topo .cart .cart-fixed .head-car small{
+	position: absolute;
+    width: 17px;
+    height: 17px;
+    color: #000;
+    background: #dfbd00;
+    border-radius: 50px;
+    left: 30px;
+    bottom: 3px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.topo .cart .cart-fixed .head-car img{
+	display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.topo .cart .cart-fixed .head-car span{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.topo .cart .cart-fixed .closeCart{
+	font-size:32px;
+	font-weight: bold;
+	color:#000;
+	position: absolute;
+	left:10px;
+	cursor:pointer;
+}
+
+.topo .cart .cart-fixed.open{
+	right:0;
+	transition:1s;
+}
+
+#showcase_content .conteiner{
+	padding:25px;
+}
+
+#showcase_content .conteiner .row_itens{
+    display: block;
+    margin: auto;
+    width: 960px;
+    padding-top:25px;
+}
+
+#showcase_content .conteiner .row_itens .item{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+#showcase_content .conteiner .row_itens .item:before{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: #000;
+    opacity: 0.6;
+    content: '';
+    width: 200px;
+    height: 325px;
+}
+
+#showcase_content .conteiner .row_itens .item:hover:before{
+	display:block;
+}
+
+#showcase_content .conteiner .row_itens .item img{
+	display:block;
+	margin:auto;
+	padding-top: 5px;
+}
+
+#showcase_content .conteiner .row_itens .item .title{
+	font-size: 14px;
+    text-align: center;
+    padding: 10px 0 5px 0px;
+    height: 35px;
+    display: block;
+}
+
+#showcase_content .conteiner .row_itens .item .price{
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+}
+
+#showcase_content .conteiner .row_itens .item .parcel{
+	font-size: 14px;
+    display: block;
+    text-align: center;
+    color: #999999;
+}
+
+#showcase_content .conteiner .row_itens .item .price:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #dfbd00;
+    position: relative;
+    margin: 0 auto 8px;
+}
+
+#showcase_content .conteiner .row_itens .item .price .real{
+	display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#showcase_content .conteiner .row_itens .item .price .cents{
+	display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#showcase_content .conteiner .row_itens .item .buy{
+	background: #ff8b51;
+	border-radius:5px;
+	height:40px;
+	width:180px;
+	display:none;
+	margin:auto;
+	color:#fff;
+	text-align:center;
+	border:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left: -90px;
+	margin-top:-20px;
+	z-index:3;
+	cursor:pointer;
+	font-size:18px;
+}
+
+#showcase_content .conteiner .row_itens .item:hover .buy{
+	display:block;
+}
+
+.topo .cart .cart-fixed .list-products .image{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+.topo .cart .cart-fixed .list-products{
+    display: block;
+    height: 350px;
+    overflow: auto;
+    width: 425px;
+    margin-left: 15px;
+}
+
+.topo .cart .cart-fixed .list-products img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.topo .cart .cart-fixed .list-products li{
+    height: 65px;
+    padding: 10px 0;
+    position: relative;
+    list-style: none;
+    width: 400px;
+    border-bottom: 2px solid #000;
+}
+
+.topo .cart .cart-fixed .list-products li:first-child{
+	border-top: 2px solid #000;
+}
+
+.topo .cart .cart-fixed .list-products li h1{
+	font-size:14px;
+	color:#fff;
+    font-family: Open Sans,sans-serif;
+    margin-left:80px;
+    font-weight:400;
+}
+
+.topo .cart .cart-fixed .list-products li .title{
+	margin-left:80px;
+	display:block;
+	color:#fff;
+	font-weight: bold;
+}
+
+.topo .cart .cart-fixed .list-products li .qtd{
+	font-size:12px;
+	color:#999999;
+	margin-left:80px;
+	display:inline-block;
+}
+
+.topo .cart .cart-fixed .list-products li .priceCart{
+	color: #dfbd00;
+	font-size:14px;
+	font-weight:bold;
+	float:right;
+}
+
+.topo .cart .cart-fixed .list-products li small{
+	display:none;
+}
+
+.topo .cart .cart-fixed .list-products li .close{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topo .cart .cart-fixed .list-products li .close:hover{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
